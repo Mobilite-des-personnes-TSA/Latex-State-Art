@@ -11,16 +11,14 @@
 \usepackage{indentfirst}
 \usepackage{hyperref}
 \usepackage[indent]{parskip}
+\usepackage[backend=biber, style=ieee]{biblatex}
 
 
-%==[DO NOT CHANGE ANYTHING HERE]====================
-\input{variables.tex}
-\input{advanced.params.tex}
-\input{cover/covermain.tex}
+\input{variables}
+\input{advanced.params}
+\input{cover/covermain}
+\addbibresource{content/bibliography.bib}
 
 \begin{document}
-    \input{content/__all__.tex}
+    \input{content/__all__}
 \end{document}
-%==[DO NOT CHANGE ANYTHING HERE]====================
-
-
